@@ -1,0 +1,30 @@
+site_name: Algorithms Journey
+site_description: Algorithm study notes
+theme:
+  name: material
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - navigation.sections
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Books:
+      - Introduction to Algorithms: books/clrs/index.md
+  - Posts: 
+      - Initial Post: posts/initial-post.md
