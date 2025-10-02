@@ -464,6 +464,90 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#22-algorithms-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 - Algorithms Analysis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 - Algorithms Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2-1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2-2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2-3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2-4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-algorithms-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 - Algorithms Project
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 - Algorithms Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -552,6 +636,74 @@ public class Main {
 <p><strong>Maintenance:</strong> if the invariant is true at the beginning of an iteration, it remains true after the iteration (or the algorithm returns).</p>
 <p><strong>Termination:</strong> when the loop ends, the invariant guarantees that v is not in <code>A[1..A.length]</code>, so returning NIL is correct.</p>
 <h3 id="21-4">2.1-4</h3>
+<blockquote>
+<p>Pending...</p>
+</blockquote>
+<h2 id="22-algorithms-analysis">2.2 - Algorithms Analysis</h2>
+<h3 id="notes">Notes</h3>
+<p>Analysis from Insertion-Sort</p>
+<ul>
+<li>
+<p>The time depends on input.</p>
+</li>
+<li>
+<p>Sort 1000 items != Sort 3 items.</p>
+</li>
+<li>
+<p>Is tradctional explain the execution time in function of the size input.</p>
+</li>
+<li>
+<p><strong>Size Input:</strong> depends on the problem. The measurement is the number of items on input, as <em>n</em> of the Insertion-Sort. Also is possible to be the total number of bits. There are other cases.</p>
+</li>
+<li>
+<p><strong>Execution Time:</strong> number of primitive operations or "steps" executed. Each step must be the more independent possible. In RAM model, we consider each line with a constant execution time.</p>
+</li>
+<li>
+<p>The execution time of the algorithm is the sum of the execution time for each instruction executed.</p>
+</li>
+</ul>
+<p>Order of Growth</p>
+<ul>
+<li>
+<p>The focus is as the execution time grows; your rate grows.</p>
+</li>
+<li>
+<p>Remove the lowest order terms and constant coefficient of the initial term: an^2 =&gt; Θ(n^2), tetha notation of the execution time for worst case.</p>
+</li>
+<li>
+<p>An algorithm is more efficient than another if its order of growth is smaller.</p>
+</li>
+</ul>
+<h3 id="22-1">2.2-1</h3>
+<blockquote>
+<p>Pending...</p>
+</blockquote>
+<h3 id="22-2">2.2-2</h3>
+<blockquote>
+<p>Pending...</p>
+</blockquote>
+<h3 id="22-3">2.2-3</h3>
+<blockquote>
+<p>Pending...</p>
+</blockquote>
+<h3 id="22-4">2.2-4</h3>
+<blockquote>
+<p>Pending...</p>
+</blockquote>
+<h2 id="23-algorithms-project">2.3 - Algorithms Project</h2>
+<h3 id="notes_1">Notes</h3>
+<p>The Divider to Conquer Approach</p>
+<ul>
+<li>
+<p>There are many recursive algorithms. In general, they follow the "Divider to Conquer" approach: break the problem down into smaller problems and then combine the solutions to create a solution to the original problem.</p>
+</li>
+<li>
+<p>Three steps: <strong>division, conquer and combination</strong>.</p>
+</li>
+<li>
+<p>Here we use the Merge-Sorting.</p>
+</li>
+</ul>
 
 
 
