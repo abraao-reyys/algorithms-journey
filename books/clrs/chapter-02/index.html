@@ -703,6 +703,25 @@ public class Main {
 <li>
 <p>Here we use the Merge-Sorting.</p>
 </li>
+<li>
+<p>The key operation of the merge sort algorithm is the merging of two sorted sequences, in the "combination" step. At the end, the auxiliary procedure MERGE is called to merge the sequences.</p>
+</li>
+</ul>
+<p>Divider to Conquer algorithms analysis</p>
+<ul>
+<li>A recurrence equation describes the global running time for recursive calls.</li>
+</ul>
+<p>Merge-Sorting analysis</p>
+<ul>
+<li>
+<p><strong>Division:</strong> calculate the midpoints of the subarray, which takes constant time. Therefore, D(n) = Θ(1).</p>
+</li>
+<li>
+<p><strong>Conquer:</strong> we recursively solve two problems, each of size n/2, that contribute with 2T(n/2) for running time.</p>
+</li>
+<li>
+<p><strong>Combination:</strong> the MERGE, a subprocedure, in a subarray of <em>n</em> elements takes Θ(n) time; so, C(n) = Θ(n).</p>
+</li>
 </ul>
 
 
