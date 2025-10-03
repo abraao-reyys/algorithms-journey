@@ -139,3 +139,17 @@ The Divider to Conquer Approach
 - Three steps: **division, conquer and combination**.
 
 - Here we use the Merge-Sorting.
+
+- The key operation of the merge sort algorithm is the merging of two sorted sequences, in the "combination" step. At the end, the auxiliary procedure MERGE is called to merge the sequences.
+
+Divider to Conquer algorithms analysis
+
+- A recurrence equation describes the global running time for recursive calls.
+
+Merge-Sorting analysis
+
+- **Division:** calculate the midpoints of the subarray, which takes constant time. Therefore, D(n) = Θ(1).
+
+- **Conquer:** we recursively solve two problems, each of size n/2, that contribute with 2T(n/2) for running time.
+
+- **Combination:** the MERGE, a subprocedure, in a subarray of *n* elements takes Θ(n) time; so, C(n) = Θ(n).
